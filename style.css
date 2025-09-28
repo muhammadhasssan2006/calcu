@@ -1,0 +1,44 @@
+
+body{
+    background-color: #4b4f54;
+}
+.main{
+    background-color: black;
+    width: 290px;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    margin: 50px auto;
+
+}
+input{
+    width: 95%;
+    font-size: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #4b4f54;
+    outline: none;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+button{
+    padding: 15px;
+    font-size: 20px;
+    width: 55px;
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: #313439;
+}
+.operator{
+    background-color: #ffa502;
+}
+.operator2{
+    background-color: #747d8c;
+}
