@@ -25,17 +25,27 @@ input{
     margin-bottom: 15px;
     
 }
-button{
+button {
     padding: 15px;
     font-size: 20px;
     width: 55px;
+    height: 55px;
     margin: 5px;
     border-radius: 50%;
     border: none;
     text-align: center;
     color: white;
     background-color: #313439;
+    cursor: pointer;
+    transition: all 0.2s ease;  
 }
+
+button:active {
+    transform: scale(0.9);              
+    box-shadow: 0 0 8px #747d8c inset;  
+}
+
+
 .operator{
     background-color: #ffa502;
 }
