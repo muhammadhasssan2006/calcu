@@ -21,7 +21,7 @@ function equal() {
 
 
 function getoperator(operator) {
-    let lastChar = input.value.slice(-1); 
+    var lastChar = input.value.slice(-1); 
 
     if (input.value === "") return;
 
